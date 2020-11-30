@@ -7134,7 +7134,6 @@ body, html {
 body {
     font-family: 'Roboto-Regular', sans-serif;
     font-weight: 500;
-    line-height: 1;
     color: #141e27;
 }
 
@@ -7155,52 +7154,6 @@ h1 {
         font-family: 'Roboto-Regular', sans-serif;
         font-size: 3.5rem;
         line-height: 4.5rem;
-    }
-}
-
-h2 {
-    font-family: 'Roboto-Regular', sans-serif;
-    font-style: medium;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 2.5rem;
-}
-
-h3 {
-    font-family: 'Roboto-Regular', sans-serif;
-    font-weight: 700;
-    font-style: medium;
-    font-size: 1.5rem;
-    line-height: 2.1rem;
-    letter-spacing: 0;
-}
-
-h4 {
-    font-family: 'Roboto-Regular', sans-serif;
-    font-weight: 700;
-    font-style: medium;
-    font-size: 1.35rem;
-    line-height: 1.75rem;
-    letter-spacing: 0;
-}
-
-@media (min-width: 60em) {
-    h4 {
-        font-size: 1.1rem;
-    }
-}
-
-h5 {
-    font-family: 'Roboto-Regular', sans-serif;
-    font-style: normal;
-    font-size: 1.35rem;
-    line-height: 1.75rem;
-    letter-spacing: 0;
-}
-
-@media (min-width: 60em) {
-    h5 {
-        font-size: 1.1rem;
     }
 }
 

@@ -29,7 +29,7 @@ const Overview = () => {
 
     return (
         <div className="container">
-            <h2>Zoracles Governance Overview</h2>
+            <h2>Zoracles Governance</h2>
 
             <div id="dashboard-overview" className="row">
                 <div className="col-sm-6 col-xs-12">

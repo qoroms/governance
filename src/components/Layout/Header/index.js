@@ -6,6 +6,7 @@ import metamask from "../../../assets/images/metamask.png"
 import "../../../styles/header.css";
 import { precision } from "../../../utils/precision";
 import AlertModal from "../../Utils/AlertModal";
+import history from "../../Utils/history";
 
 const Header = () => {
     const [path, setPath] = useState("/");
@@ -51,9 +52,9 @@ const Header = () => {
     };
 
     useEffect(() => {
-        window.onhashchange = () => {
-            setPath(window.location.hash.substr(1));
-        };
+        history.listen(location => {
+            setPath(location.pathname);
+        });
 
         if (window.userAddress) {
             fetchBalance();
