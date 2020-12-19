@@ -395,7 +395,7 @@ const Vesting = () => {
 
                                     {!metamaskError ?
                                         <div className="p-4">
-                                            <Row style={{ marginBottom: "17px", marginTop: "10px" }}>
+                                            <Row style={{ marginBottom: "10px", marginTop: "8px" }}>
                                                 <Col className="vesting-form-text">
                                                     Beneficiary Address:
                                                 </Col>
@@ -413,7 +413,7 @@ const Vesting = () => {
                                                 </Col>
                                             </Row>
 
-                                            <Row style={{ marginBottom: "15px" }}>
+                                            <Row style={{ marginBottom: "10px" }}>
                                                 <Col className="vesting-form-text">
                                                     Deposit Amount:
                                                 </Col>
@@ -433,7 +433,7 @@ const Vesting = () => {
                                                 </Col>
                                             </Row>
 
-                                            <Row style={{ marginBottom: "15px" }}>
+                                            <Row style={{ marginBottom: "10px" }}>
                                                 <Col className="vesting-form-text">
                                                     Cliff Period:
                                                 </Col>
@@ -453,7 +453,7 @@ const Vesting = () => {
                                                 </Col>
                                             </Row>
 
-                                            <Row style={{ marginBottom: "15px" }}>
+                                            <Row style={{ marginBottom: "10px" }}>
                                                 <Col className="vesting-form-text">
                                                     Vesting Period:
                                                 </Col>
@@ -473,7 +473,7 @@ const Vesting = () => {
                                                 </Col>
                                             </Row>
 
-                                            <Row style={{ marginBottom: "15px" }}>
+                                            <Row style={{ marginBottom: "18px" }}>
                                                 <Col className="vesting-form-text">
                                                     Withdrawal Per Day:
                                                 </Col>
