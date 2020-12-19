@@ -208,7 +208,8 @@ const Vesting = () => {
     useEffect(() => {
         if (typeof window.ethereum === 'undefined' ||
             !window.ethereum.isConnected() ||
-            !window.ethereum.selectedAddress
+            !window.ethereum.selectedAddress ||
+            config.networkId !== Number(window.chainId)
         ) {
             showMetamaskError(true);
         } else {
