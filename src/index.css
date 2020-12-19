@@ -7508,3 +7508,9 @@ body {
         -webkit-transform: rotate(360deg);
     }
 }
+
+.vesting-form-text {
+    color: white;
+    font-size: large;
+    margin-top: 9px;
+}
