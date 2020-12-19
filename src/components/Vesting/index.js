@@ -522,7 +522,7 @@ const Vesting = () => {
                                         </div>
                                         :
                                         <div
-                                            style={{ marginTop: "17%", paddingBottom: "17.2%" }}
+                                            style={{ marginTop: "18%", paddingBottom: "18%" }}
                                         >
                                             <p style={{ textAlign: "center", fontSize: "large", color: "orange" }}>
                                                 You have not connected to metamask or You don't have Metamask.<br />
