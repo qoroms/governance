@@ -9,6 +9,6 @@ export const config = {
     govAbi: govAbi.default,
     govAddress: "0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28",
     vestingAbi: vestingAbi.default,
-    vestingAddress: "0x8fF05C21FBAE9B7B24D21c0Fb552F3e1DbF93182",
+    vestingAddress: "0xfa2D3C480D01BA638314EB2020c4Ace0EbA1d9E9",
     etherscanLink: "https://ropsten.etherscan.io",
 };
