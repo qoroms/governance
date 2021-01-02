@@ -34,6 +34,7 @@ const RecentProposals = () => {
             <div className="governance-panel">
                 <div className="governance-panel__header">
                     <h4>Recent Proposals</h4>
+                    <Link to="/create-proposal">Create Proposal</Link>
                 </div>
                 <div className="proposals">
                     {proposals.length > 0 ?
