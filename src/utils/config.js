@@ -3,12 +3,13 @@ import * as govAbi from './abis/govAbi.json';
 import * as vestingAbi from './abis/vestingAbi.json';
 
 export const config = {
-    networkId: 3,
+    networkId: 1,
     zoraAbi: tokenAbi.default,
-    zoraAddress: "0x5f994DD72D2Dd56E8F4895b244AB5Ec21C2893ed",
+    zoraAddress: "0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6",
     govAbi: govAbi.default,
-    govAddress: "0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28",
+    govAddress: "0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3",
     vestingAbi: vestingAbi.default,
-    vestingAddress: "0xfa2D3C480D01BA638314EB2020c4Ace0EbA1d9E9",
-    etherscanLink: "https://ropsten.etherscan.io",
+    vestingAddress: "0x2369921551f2417d8d5cD4C1EDb1ac7eEe156380",
+    timelockAddress: "0x1e3c7B78d1c50Eb08e1bf85622b3e1611aeA9C51",
+    etherscanLink: "https://etherscan.io",
 };
