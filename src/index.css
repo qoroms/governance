@@ -6711,7 +6711,6 @@ body, html {
 }
 
 [class*='col'] {
-    flex-basis: 100%;
     padding: 0 0.665rem;
 }
 
@@ -7034,7 +7033,7 @@ body {
     color: #141e27;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4 {
     margin: 0 0 1em 0;
     text-rendering: optimizelegibility;
     font-weight: 500;
@@ -7061,6 +7060,7 @@ p {
     line-height: 24px;
     letter-spacing: 0;
     margin: 0px;
+    margin-bottom: 0.82rem !important;
 }
 
 p.small {
@@ -7507,4 +7507,10 @@ body {
     to {
         -webkit-transform: rotate(360deg);
     }
+}
+
+.vesting-form-text {
+    color: white;
+    font-size: large;
+    margin-top: 9px;
 }

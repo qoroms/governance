@@ -6,6 +6,7 @@ import redirectIcon from "../../assets/images/redirect-icon.png";
 import { thegraph } from "../../utils/thegraph";
 import AlertModal from "../Utils/AlertModal";
 import SuccessModal from "../Utils/SuccessModal";
+import { config } from "../../utils/config";
 import "../../styles/addressInfo.css";
 
 const AddressInfo = () => {
@@ -147,7 +148,7 @@ const AddressInfo = () => {
                                                 className="links"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                href={`https://etherscan.io/address/${address}`}
+                                                href={`${config.etherscanLink}/address/${address}`}
                                             >
                                                 <img
                                                     className="holdings-panel__holdings__row__votes-label__icon"
@@ -165,7 +166,7 @@ const AddressInfo = () => {
                                                 className="links"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                href={`https://etherscan.io/address/${address}`}
+                                                href={`${config.etherscanLink}/address/${address}`}
                                             >
                                                 <img
                                                     className="holdings-panel__holdings__row__votes-label__icon"

@@ -14,6 +14,8 @@ import Proposals from './Proposals';
 import Leaderboard from './Leaderboard';
 import DisplayProposal from './DisplayProposal';
 import AddressInfo from './AddressInfo';
+import Vesting from './Vesting';
+import CreateProposal from './CreateProposal';
 
 export default function App() {
     const routes = (
@@ -32,6 +34,12 @@ export default function App() {
             </Route>
             <Route path="/address/:address" exact>
                 <AddressInfo />
+            </Route>
+            <Route path="/vesting" exact>
+                <Vesting />
+            </Route>
+            <Route path="/create-proposal" exact>
+                <CreateProposal />
             </Route>
             <Redirect to="/" />
         </Switch>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { config } from "../../../utils/config";
 import { thegraph } from "../../../utils/thegraph";
 import AlertModal from "../../Utils/AlertModal";
 
@@ -39,7 +40,7 @@ const Overview = () => {
                             className="content"
                             target="_blank"
                             rel="noopener noreferrer"
-                            href={`https://etherscan.io/token/0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6#balances`}
+                            href={`${config.etherscanLink}/token/${config.zoraAddress}#balances`}
                         >
                             <div>
                                 <div className="headline">10,000 ZORA</div>

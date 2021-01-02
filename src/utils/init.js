@@ -25,6 +25,12 @@ export async function initContracts(callback) {
         { from: window.userAddress }
     );
 
+    window.vestingContract = new window.web3.eth.Contract(
+        config.vestingAbi,
+        config.vestingAddress,
+        { from: window.userAddress }
+    );
+
     window.ethInitialized = true;
     window.chainId = window.ethereum.chainId;
     window.ethereum.autoRefreshOnNetworkChange = false;
